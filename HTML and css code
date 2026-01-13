@@ -8,65 +8,36 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
         }
 
         .login-container {
-            background-color: white;
-            padding: 25px;
-            border-radius: 8px;
             width: 300px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            text-align: center;
-        }
-
-        label {
-            display: block;
-            margin-top: 10px;
-        }
-
-        input {
-            width: 100%;
-            padding: 8px;
-            margin-top: 5px;
-        }
-
-        button {
-            width: 100%;
-            padding: 10px;
-            margin-top: 15px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #45a049;
+            margin: 120px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
         }
     </style>
 </head>
 <body>
 
     <div class="login-container">
-        <h2>Login</h2>
+        <h1>Sign In</h1>
 
-        <form action="#" method="post">
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" required>
+        <form>
+            <label for="username">Username</label><br>
+            <input type="text" id="username"><br><br>
 
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
+            <label for="password">Password</label><br>
+            <input type="password" id="password"><br><br>
 
-            <button type="submit">Login</button>
+            <button type="submit">Sign In</button>
         </form>
     </div>
+
+</body>
+</html>
+
 
 </body>
 </html>
