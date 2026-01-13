@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .login-container {
+            width: 300px;
+            margin: 120px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h1>Sign In</h1>
+
+        <form>
+            <label for="username">Username</label><br>
+            <input type="text" id="username"><br><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="password"><br><br>
+
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+
+</body>
+</html>
+
+
+</body>
+</html>
